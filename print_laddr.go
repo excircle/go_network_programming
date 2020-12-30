@@ -1,19 +1,3 @@
-# Go Network Programming!
-
-Go Network Tomfoolery: How-To's and Whaddaya-Do's
-
-This is my repository to publish basic `net` and `net/http` code. These code samples serve as quick reminders in case I forget anything.
-
-Below, you will find a list of programs and their respective source code.
-
-# Code Samples
-
-<details><summary>print_laddr.go - Print Local Address</summary>
-<p>
-
-<code>print_laddr.go</code> loops through locally available network interfaces and prints the IP Address found on the interface that has a <code>192.168</code> address.
-
-```go
 package main
 
 import (
@@ -52,7 +36,3 @@ func main() {
 		}
 	}
 }
-```
-
-</p>
-</details>
